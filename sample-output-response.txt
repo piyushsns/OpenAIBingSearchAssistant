@@ -1,70 +1,66 @@
-piyushjain@Piyushs-Mac-mini OpenAIBingSearchAssistant % python3 bing-search-openai-assistance.py
+piyushjain@Piyushs-Mac-mini OpenAIBingSearchAssistant % python3 main.py
 Do you want to use existing assistant if yes then please enter your assistant id othewise enter no to create a new assistant!: no
-Assistant Created Succesfully: asst_Jy24knZvGQMgwLBg9L4ACEjt
+Assistant Created Succesfully: asst_xi5A2Y7lxaLWUgQEoYgqOZBD
 
 Do you want to use existing main thread if yes then please enter your main thread id othewise enter no to create a new thread!: no
-Main Thread Created Succesfully: thread_Npl1CMV7OO2OQ83BwhwilM7a
+Main Thread Created Succesfully: thread_g7yKiRDiPPr6Uy94LDb5vUS1
 
-Assistant Id:asst_Jy24knZvGQMgwLBg9L4ACEjt
-MainThread Id:thread_Npl1CMV7OO2OQ83BwhwilM7a
+Assistant Id:asst_xi5A2Y7lxaLWUgQEoYgqOZBD
+MainThread Id:thread_g7yKiRDiPPr6Uy94LDb5vUS1
 
 
-Your request: investorlift
-User Prompt: investorlift
+Your request: zillow in usa
+User Prompt: zillow in usa
 
-Thread Message Created Succesfully: msg_OxI1rnEGCImRgNJAiOacCdQE
+Thread Message Created Succesfully: msg_xkDblJ87iyxGzhd6F1Fiu983
 
-Thread Run Created Succesfully: run_KhxBguBUQVf9A2OaNNW6SPMQ
+Thread Run Created Succesfully: run_3kfkaYtUmwKM9ccXlLvuPAl0
 
 Current run status: requires_action
 
-Submitting tool outputs for thread_id: thread_Npl1CMV7OO2OQ83BwhwilM7a, run_id: run_KhxBguBUQVf9A2OaNNW6SPMQ, tools_to_call: [RequiredActionFunctionToolCall(id='call_jgNCos9TDM16kFTI4INN0gxs', function=Function(arguments='{\n  "user_request": "investorlift"\n}', name='perform_bing_search'), type='function')]
+Submitting tool outputs for thread_id: thread_g7yKiRDiPPr6Uy94LDb5vUS1, run_id: run_3kfkaYtUmwKM9ccXlLvuPAl0, tools_to_call: [RequiredActionFunctionToolCall(id='call_NyxlCeOzmtQrqp75a8r6UydM', function=Function(arguments='{\n  "user_request": "zillow in usa"\n}', name='perform_bing_search'), type='function')]
 
 [function call] perform_bing_search...
 
 
-Generating a search_query for Bing based on this user request: investorlift
+Generating a search_query for Bing based on this user request: zillow in usa
 
-Bing search query: "Benefits and features of using InvestorLift for real estate investors". Now executing the search...
+Bing search query: "Zillow property listings in the United States". Now executing the search...
 
-bing_search_query===>https://api.bing.microsoft.com/v7.0/custom/search?q=Benefits%20and%20features%20of%20using%20InvestorLift%20for%20real%20estate%20investors&customconfig=259b543b-4c43-44ef-82ee-526bfac0ed12&mkt=en-US
+bing_search_query===>https://api.bing.microsoft.com/v7.0/custom/search?q=Zillow%20property%20listings%20in%20the%20United%20States&customconfig=259b543b-4c43-44ef-82ee-526bfac0ed12&mkt=en-US
 
 
-Title: InvestorLift Review (2024): Features, Pricing, & Alternatives
-URL: https://www.realestateskills.com/blog/investorlift
-Snippet: InvestorLift is a comprehensive software with features to help wholesalers and real estate investors flip more contracts and buy more deals. It connects users with buyers based on scores and offers everything they need for successful lead generation, including deal-tracking tools, outreach tools like built-in SMS, and superb listing features.
+Title: United States Real Estate - United States Homes For Sale | Zillow
+URL: https://www.zillow.com/us/
+Snippet: Zillow has 397930 homes for sale in United States. View listing photos, review sales history, and use our detailed real estate filters to find the perfect place.
 
-Title: InvestorLift Reviews: Unbiased Insights and Analysis in 2023
-URL: https://www.propertyleads.com/investorlift-reviews/
-Snippet: InvestorLift is primarily a platform that helps investors, wholesalers, and rehabbers identify off-market deals. The various features and offerings of InvestorLift are outlined below: Real Estate Marketplace. The InvestorLift software provides a marketplace that empowers some of the most successful real estate investing businesses in the U.S.
+Title: Zillow: Real Estate, Apartments, Mortgages & Home Values
+URL: https://www.zillow.com/
+Snippet: Trending Homes in Boydton, VA. Viewed and saved the most in the area over the past 24 hours. Skip to the end of the carousel. $925,000. 3 bds4 ba2,912 sqft House for sale. 238 Roanoke Bnd, Boydton, VA 23917. $850,000. 3 bds4 ba3,280 sqft House for sale. 1744 Greenwood Rd, Boydton, VA 23917.
 
-Title: InvestorLift Review: Revolutionizing Wholesale Real Estate Deals
-URL: https://eightify.app/summary/real-estate-and-homeownership/investorlift-review-revolutionizing-wholesale-real-estate-deals
-Snippet: InvestorLift is revolutionizing the wholesale real estate market by providing a platform for buyers to easily view and purchase wholesale deals, making it the future of wholesaling. InvestorLift Review: Revolutionizing Wholesale Real Estate Deals — Eightify
+Title: United States Single Family Homes For Sale - 240421 Homes | Zillow
+URL: https://www.zillow.com/us/houses/
+Snippet: 240421 single family homes for sale in United States. View pictures of homes, review sales history, and use our detailed filters to find the perfect place.
 
-Title: InvestorLift Tutorial: Boost Real Estate Wholesaling Efficiency
-URL: https://eightify.app/summary/real-estate-and-homeownership/investorlift-tutorial-boost-real-estate-wholesaling-efficiency
-Snippet: InvestorLift is a revolutionary platform for real estate wholesalers, allowing them to communicate with buyers, access a knowledge base, and sell deals, with features such as building and organizing cash buyers lists, filtering buyers by location, and receiving and negotiating cash offers on deals.
+Title: United States Land & Lots For Sale - 57125 Listings | Zillow
+URL: https://www.zillow.com/us/land/
+Snippet: United States Land & Lots For Sale - 55906 Listings | Zillow For Sale Price Price Range List Price Monthly Payment Minimum – Maximum Beds & Baths Bedrooms Bathrooms Apply Home Type (1) Home Type Houses Townhomes Multi-family Condos/Co-ops Lots/Land Apartments Manufactured Apply More filters
 
-Title: Streamlining the Buyer Vetting Process: A Guide to Using Investorlift ...
-URL: https://help.investorlift.com/en/articles/8458349-streamlining-the-buyer-vetting-process-a-guide-to-using-investorlift
-Snippet: Fortunately, Investorlift offers powerful tools to help you manage your buyer list efficiently. In this article, we will explore how to vet buyers using Investorlift and seamlessly integrate them into your real estate business.
+Title: United States Luxury Homes For Sale - 396610 Homes | Zillow
+URL: https://www.zillow.com/us/luxury-homes/
+Snippet: For Sale. Check out the nicest homes currently on the market in United States. View pictures, check Zestimates, and get scheduled for a tour of some luxury listings.
 
-Title: 80/20 Real Estate Show: Ep 88: InvestorLift and Changing Dispositions ...
-URL: https://blog.investorfuse.com/ep-88-investorlift-and-changing-dispositions-technology-robert-wensley/
-Snippet: 80/20 Real Estate Show: Ep 88: InvestorLift and Changing Dispositions Technology | Robert Wensley. March 16, 2021 by Carlos Zamora Leave a Comment. Robert Wensley joins the show to talk about his new to the public tool, InvestorLift, which has been used by a handful of high-level wholesalers this past year to completely change their ...
+Title: United States Duplex & Triplex Homes For Sale - Zillow
+URL: https://www.zillow.com/us/duplex/
+Snippet: Search duplex and triplex homes for sale in United States. Find multi-family housing and more on Zillow.
 
-Title: Investorlift | Sell Your Deals Faster
-URL: https://get.investorlift.com/
-Snippet: Investorlift streamlines your property transactions, helping you find and close deals faster and with less effort. Book Demo What our wholesaling platform provides Vetted and ranked data The decentralised data in Investorlift is designed to hyper-accelerate the creation of your buyers list.
+Title: Waterfront - United States Waterfront Homes For Sale - Zillow
+URL: https://www.zillow.com/us/waterfront/
+Snippet: For Sale. Browse waterfront homes currently on the market in United States matching Waterfront. View pictures, check Zestimates, and get scheduled for a tour of Waterfront listings.
 
-Title: Use God Mode to Research Your Market | Investorlift Help Center
-URL: https://help.investorlift.com/en/articles/8011646-use-god-mode-to-research-your-market
-Snippet: Investorlift, a cutting-edge real estate marketplace, offers users powerful features to find buyer leads. Among those features is God Mode, a powerful tool that provides users with comprehensive insights into the real estate market within their target areas.
-
-Title: Sell your Deals Fast | Investorlift Help Center
-URL: https://help.investorlift.com/en/articles/6084813-sell-your-deals-fast
-Snippet: By harnessing the power of the advanced tools available, such as the Artemis Mode and God Mode, wholesalers gain a comprehensive view of all available leads, ensuring that no valuable opportunity slips through the cracks. Address Requests & Inquiries
+Title: United States For Sale by Owner (FSBO) - 7925 Homes | Zillow
+URL: https://www.zillow.com/us/fsbo/
+Snippet: Browse photos and listings for the 7872 for sale by owner (FSBO) listings in United States and get in touch with a seller after filtering down to the perfect home.
 
 Bing Search 200 successfull crawled
 
@@ -80,26 +76,28 @@ Current run status: in_progress
 Current run status: in_progress
 Current run status: requires_action
 
-Submitting tool outputs for thread_id: thread_Npl1CMV7OO2OQ83BwhwilM7a, run_id: run_KhxBguBUQVf9A2OaNNW6SPMQ, tools_to_call: [RequiredActionFunctionToolCall(id='call_Xh8gPHT6A9qoiKXNclrG7Ded', function=Function(arguments='{\n  "search_results": "InvestorLift is a comprehensive software with features to help wholesalers and real estate investors flip more contracts and buy more deals. It connects users with buyers based on scores and offers everything they need for successful lead generation, including deal-tracking tools, outreach tools like built-in SMS, and superb listing features. InvestorLift is primarily a platform that helps investors, wholesalers, and rehabbers identify off-market deals. The various features and offerings of InvestorLift are outlined below: Real Estate Marketplace. The InvestorLift software provides a marketplace that empowers some of the most successful real estate investing businesses in the U.S. InvestorLift is revolutionizing the wholesale real estate market by providing a platform for buyers to easily view and purchase wholesale deals, making it the future of wholesaling. InvestorLift is a revolutionary platform for real estate wholesalers, allowing them to communicate with buyers, access a knowledge base, and sell deals, with features such as building and organizing cash buyers lists, filtering buyers by location, and receiving and negotiating cash offers on deals. Investorlift offers powerful tools to help you manage your buyer list efficiently. InvestorLift streamlines your property transactions, helping you find and close deals faster and with less effort. Investorlift, a cutting-edge real estate marketplace, offers users powerful features to find buyer leads."\n}', name='process_search_results'), type='function')]
+Submitting tool outputs for thread_id: thread_g7yKiRDiPPr6Uy94LDb5vUS1, run_id: run_3kfkaYtUmwKM9ccXlLvuPAl0, tools_to_call: [RequiredActionFunctionToolCall(id='call_GTeYwKrGMP6jpW2gS7xiFdzK', function=Function(arguments='{\n  "search_results": "Zillow has 397930 homes for sale in United States. View listing photos, review sales history, and use our detailed real estate filters to find the perfect place.\\n\\nTrending Homes in Boydton, VA. Viewed and saved the most in the area over the past 24 hours. Skip to the end of the carousel. $925,000. 3 bds4 ba2,912 sqft House for sale. 238 Roanoke Bnd, Boydton, VA 23917. $850,000. 3 bds4 ba3,280 sqft House for sale. 1744 Greenwood Rd, Boydton, VA 23917.\\n\\n240421 single family homes for sale in United States. View pictures of homes, review sales history, and use our detailed filters to find the perfect place.\\n\\nUnited States Land & Lots For Sale - 57125 Listings | Zillow For Sale Price Price Range List Price Monthly Payment Minimum – Maximum Beds & Baths Bedrooms Bathrooms Apply Home Type (1) Home Type Houses Townhomes Multi-family Condos/Co-ops Lots/Land Apartments Manufactured Apply More filters\\n\\nFor Sale. Check out the nicest homes currently on the market in United States. View pictures, check Zestimates, and get scheduled for a tour of some luxury listings.\\n\\nSearch duplex and triplex homes for sale in United States. Find multi-family housing and more on Zillow.\\n\\nFor Sale. Browse waterfront homes currently on the market in United States matching Waterfront. View pictures, check Zestimates, and get scheduled for a tour of Waterfront listings.\\n\\nBrowse photos and listings for the 7872 for sale by owner (FSBO) listings in United States and get in touch with a seller after filtering down to the perfect home."\n}', name='process_search_results'), type='function')]
 
 
 [function call] process_search_results...
 
 Analyzing/processing Bing search results:-
 
-Analysis: Based on the user request for "investorlift," the search results provide information about the features and offerings of InvestorLift, a comprehensive software platform for real estate investors, wholesalers, and rehabbers.
+Analysis: The Bing search results provide information about Zillow, a popular real estate platform in the United States. The results indicate that Zillow has a vast number of homes for sale in the country, specifically 397,930 homes. Users can view listing photos, review sales history, and utilize real estate filters to find their perfect place.
 
-1. InvestorLift is a platform that helps investors, wholesalers, and rehabbers identify off-market deals. This suggests that the software offers unique features to locate and access real estate deals that may not be available through traditional channels.
+There is a section concerning "Trending Homes in Boydton, VA" which displays two houses for sale in that area, with their respective details and prices.
 
-2. The software provides a real estate marketplace where buyers can view and purchase wholesale deals. InvestorLift aims to revolutionize the wholesale real estate market by simplifying the process for buyers to find and buy properties at wholesale prices.
+Additionally, there are over 240,421 single-family homes for sale in the United States, with options to view pictures of the homes and review their sales history.
 
-3. InvestorLift offers various tools for efficient lead generation, including deal-tracking tools, outreach tools like built-in SMS, and superb listing features. These features are designed to help users flip more contracts and buy more deals, streamlining the property transaction process.
+The search results also mention that Zillow has listings for land and lots for sale, with 57,125 listings available. Users can filter their search based on price range, bedrooms, bathrooms, and home type.
 
-4. The platform allows users to communicate with buyers, access a knowledge base, and sell deals. This suggests that InvestorLift facilitates communication and collaboration between sellers and buyers, making it easier for users to connect and close deals.
+Furthermore, there is a section showcasing the nicest homes currently on the market in the United States. Users can view pictures and check Zestimates (Zillow's estimated home values) for luxury listings.
 
-5. Powerful tools are available to manage buyer lists efficiently, indicating that the software provides features to organize and filter potential buyers based on location and other criteria.
+Another feature mentioned in the search results is the ability to search for duplex and triplex homes for sale in the United States, as well as browse waterfront homes available.
 
-Overall, InvestorLift appears to be a comprehensive software platform that combines a marketplace for real estate deals with a range of features to assist investors, wholesalers, and rehabbers with lead generation, deal management, and efficient property transactions.
+Lastly, users can find "for sale by owner" listings in the United States, with 7,872 such listings currently available on Zillow.
+
+Overall, the search results demonstrate the breadth of Zillow's real estate listings in the United States, providing users with various options and features to find their preferred homes or properties.
 
 [function result] Appending tool output array...
 
@@ -108,25 +106,9 @@ Run Status: queued
 
 Current run status: in_progress
 Current run status: in_progress
-Current run status: in_progress
-Current run status: in_progress
-Current run status: in_progress
-Current run status: in_progress
 Current run status: completed
 
 
 ====== Assistant Response ======
 
-assistant: InvestorLift is a comprehensive software platform that caters to real estate investors, wholesalers, and rehabbers. It offers various features and tools to help users identify off-market deals, connect with buyers, and streamline property transactions. Some of the key features and offerings of InvestorLift include:
-
-1. Real Estate Marketplace: InvestorLift provides a marketplace where users can access wholesale deals. This enables investors to find and purchase properties at wholesale prices.
-
-2. Lead Generation Tools: The software facilitates lead generation by offering deal-tracking tools, outreach tools like built-in SMS, and listing features. These tools aim to help users flip more contracts and buy more deals.
-
-3. Buyer Communication and Collaboration: InvestorLift allows users to communicate with buyers, access a knowledge base, and sell deals. This feature makes it easier for sellers to connect with potential buyers and facilitate successful transactions.
-
-4. Efficient Buyer List Management: The platform offers powerful tools to manage buyer lists efficiently. Users can build and organize cash buyers lists, filter buyers by location, and receive and negotiate cash offers on deals.
-
-5. Streamlined Property Transactions: InvestorLift streamlines property transactions, helping users find and close deals faster with less effort. The software aims to simplify the process of buying and selling real estate.
-
-Overall, InvestorLift provides a comprehensive solution for real estate investors, wholesalers, and rehabbers by combining a real estate marketplace with a range of features and tools for lead generation and efficient property transactions.
+assistant: Zillow is a well-known real estate platform in the United States. It offers a wide range of homes for sale, with a total of 397,930 listings available. Users can browse through these listings and view photos, review sales history, and utilize detailed filters to find the perfect place. Additionally, Zillow provides information on trending homes in specific areas, such as Boydton, VA, with details and prices of houses currently for sale. There are also over 240,421 single-family homes available for sale across the United States. Users can view pictures and use filters to narrow down their search. Zillow also offers listings for land and lots, with 57,125 options available. Users can filter these listings based on price, bedrooms, bathrooms, and home type. For those looking for luxury homes, Zillow features the nicest properties currently on the market in the United States. Users can view pictures, check Zestimates (estimated home values), and schedule tours of these luxury listings. Additionally, Zillow allows users to search for duplex and triplex homes for sale, as well as browse waterfront homes. Finally, users can find "for sale by owner" listings, with 7,872 such listings currently available on Zillow. Overall, Zillow offers a comprehensive and diverse selection of real estate listings, catering to various preferences and needs.
