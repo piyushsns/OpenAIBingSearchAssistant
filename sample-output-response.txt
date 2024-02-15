@@ -1,0 +1,132 @@
+piyushjain@Piyushs-Mac-mini OpenAIBingSearchAssistant % python3 bing-search-openai-assistance.py
+Do you want to use existing assistant if yes then please enter your assistant id othewise enter no to create a new assistant!: no
+Assistant Created Succesfully: asst_Jy24knZvGQMgwLBg9L4ACEjt
+
+Do you want to use existing main thread if yes then please enter your main thread id othewise enter no to create a new thread!: no
+Main Thread Created Succesfully: thread_Npl1CMV7OO2OQ83BwhwilM7a
+
+Assistant Id:asst_Jy24knZvGQMgwLBg9L4ACEjt
+MainThread Id:thread_Npl1CMV7OO2OQ83BwhwilM7a
+
+
+Your request: investorlift
+User Prompt: investorlift
+
+Thread Message Created Succesfully: msg_OxI1rnEGCImRgNJAiOacCdQE
+
+Thread Run Created Succesfully: run_KhxBguBUQVf9A2OaNNW6SPMQ
+
+Current run status: requires_action
+
+Submitting tool outputs for thread_id: thread_Npl1CMV7OO2OQ83BwhwilM7a, run_id: run_KhxBguBUQVf9A2OaNNW6SPMQ, tools_to_call: [RequiredActionFunctionToolCall(id='call_jgNCos9TDM16kFTI4INN0gxs', function=Function(arguments='{\n  "user_request": "investorlift"\n}', name='perform_bing_search'), type='function')]
+
+[function call] perform_bing_search...
+
+
+Generating a search_query for Bing based on this user request: investorlift
+
+Bing search query: "Benefits and features of using InvestorLift for real estate investors". Now executing the search...
+
+bing_search_query===>https://api.bing.microsoft.com/v7.0/custom/search?q=Benefits%20and%20features%20of%20using%20InvestorLift%20for%20real%20estate%20investors&customconfig=259b543b-4c43-44ef-82ee-526bfac0ed12&mkt=en-US
+
+
+Title: InvestorLift Review (2024): Features, Pricing, & Alternatives
+URL: https://www.realestateskills.com/blog/investorlift
+Snippet: InvestorLift is a comprehensive software with features to help wholesalers and real estate investors flip more contracts and buy more deals. It connects users with buyers based on scores and offers everything they need for successful lead generation, including deal-tracking tools, outreach tools like built-in SMS, and superb listing features.
+
+Title: InvestorLift Reviews: Unbiased Insights and Analysis in 2023
+URL: https://www.propertyleads.com/investorlift-reviews/
+Snippet: InvestorLift is primarily a platform that helps investors, wholesalers, and rehabbers identify off-market deals. The various features and offerings of InvestorLift are outlined below: Real Estate Marketplace. The InvestorLift software provides a marketplace that empowers some of the most successful real estate investing businesses in the U.S.
+
+Title: InvestorLift Review: Revolutionizing Wholesale Real Estate Deals
+URL: https://eightify.app/summary/real-estate-and-homeownership/investorlift-review-revolutionizing-wholesale-real-estate-deals
+Snippet: InvestorLift is revolutionizing the wholesale real estate market by providing a platform for buyers to easily view and purchase wholesale deals, making it the future of wholesaling. InvestorLift Review: Revolutionizing Wholesale Real Estate Deals — Eightify
+
+Title: InvestorLift Tutorial: Boost Real Estate Wholesaling Efficiency
+URL: https://eightify.app/summary/real-estate-and-homeownership/investorlift-tutorial-boost-real-estate-wholesaling-efficiency
+Snippet: InvestorLift is a revolutionary platform for real estate wholesalers, allowing them to communicate with buyers, access a knowledge base, and sell deals, with features such as building and organizing cash buyers lists, filtering buyers by location, and receiving and negotiating cash offers on deals.
+
+Title: Streamlining the Buyer Vetting Process: A Guide to Using Investorlift ...
+URL: https://help.investorlift.com/en/articles/8458349-streamlining-the-buyer-vetting-process-a-guide-to-using-investorlift
+Snippet: Fortunately, Investorlift offers powerful tools to help you manage your buyer list efficiently. In this article, we will explore how to vet buyers using Investorlift and seamlessly integrate them into your real estate business.
+
+Title: 80/20 Real Estate Show: Ep 88: InvestorLift and Changing Dispositions ...
+URL: https://blog.investorfuse.com/ep-88-investorlift-and-changing-dispositions-technology-robert-wensley/
+Snippet: 80/20 Real Estate Show: Ep 88: InvestorLift and Changing Dispositions Technology | Robert Wensley. March 16, 2021 by Carlos Zamora Leave a Comment. Robert Wensley joins the show to talk about his new to the public tool, InvestorLift, which has been used by a handful of high-level wholesalers this past year to completely change their ...
+
+Title: Investorlift | Sell Your Deals Faster
+URL: https://get.investorlift.com/
+Snippet: Investorlift streamlines your property transactions, helping you find and close deals faster and with less effort. Book Demo What our wholesaling platform provides Vetted and ranked data The decentralised data in Investorlift is designed to hyper-accelerate the creation of your buyers list.
+
+Title: Use God Mode to Research Your Market | Investorlift Help Center
+URL: https://help.investorlift.com/en/articles/8011646-use-god-mode-to-research-your-market
+Snippet: Investorlift, a cutting-edge real estate marketplace, offers users powerful features to find buyer leads. Among those features is God Mode, a powerful tool that provides users with comprehensive insights into the real estate market within their target areas.
+
+Title: Sell your Deals Fast | Investorlift Help Center
+URL: https://help.investorlift.com/en/articles/6084813-sell-your-deals-fast
+Snippet: By harnessing the power of the advanced tools available, such as the Artemis Mode and God Mode, wholesalers gain a comprehensive view of all available leads, ensuring that no valuable opportunity slips through the cracks. Address Requests & Inquiries
+
+Bing Search 200 successfull crawled
+
+[function result] Appending tool output array...
+
+
+Run Status: queued
+
+Current run status: in_progress
+Current run status: in_progress
+Current run status: in_progress
+Current run status: in_progress
+Current run status: in_progress
+Current run status: requires_action
+
+Submitting tool outputs for thread_id: thread_Npl1CMV7OO2OQ83BwhwilM7a, run_id: run_KhxBguBUQVf9A2OaNNW6SPMQ, tools_to_call: [RequiredActionFunctionToolCall(id='call_Xh8gPHT6A9qoiKXNclrG7Ded', function=Function(arguments='{\n  "search_results": "InvestorLift is a comprehensive software with features to help wholesalers and real estate investors flip more contracts and buy more deals. It connects users with buyers based on scores and offers everything they need for successful lead generation, including deal-tracking tools, outreach tools like built-in SMS, and superb listing features. InvestorLift is primarily a platform that helps investors, wholesalers, and rehabbers identify off-market deals. The various features and offerings of InvestorLift are outlined below: Real Estate Marketplace. The InvestorLift software provides a marketplace that empowers some of the most successful real estate investing businesses in the U.S. InvestorLift is revolutionizing the wholesale real estate market by providing a platform for buyers to easily view and purchase wholesale deals, making it the future of wholesaling. InvestorLift is a revolutionary platform for real estate wholesalers, allowing them to communicate with buyers, access a knowledge base, and sell deals, with features such as building and organizing cash buyers lists, filtering buyers by location, and receiving and negotiating cash offers on deals. Investorlift offers powerful tools to help you manage your buyer list efficiently. InvestorLift streamlines your property transactions, helping you find and close deals faster and with less effort. Investorlift, a cutting-edge real estate marketplace, offers users powerful features to find buyer leads."\n}', name='process_search_results'), type='function')]
+
+
+[function call] process_search_results...
+
+Analyzing/processing Bing search results:-
+
+Analysis: Based on the user request for "investorlift," the search results provide information about the features and offerings of InvestorLift, a comprehensive software platform for real estate investors, wholesalers, and rehabbers.
+
+1. InvestorLift is a platform that helps investors, wholesalers, and rehabbers identify off-market deals. This suggests that the software offers unique features to locate and access real estate deals that may not be available through traditional channels.
+
+2. The software provides a real estate marketplace where buyers can view and purchase wholesale deals. InvestorLift aims to revolutionize the wholesale real estate market by simplifying the process for buyers to find and buy properties at wholesale prices.
+
+3. InvestorLift offers various tools for efficient lead generation, including deal-tracking tools, outreach tools like built-in SMS, and superb listing features. These features are designed to help users flip more contracts and buy more deals, streamlining the property transaction process.
+
+4. The platform allows users to communicate with buyers, access a knowledge base, and sell deals. This suggests that InvestorLift facilitates communication and collaboration between sellers and buyers, making it easier for users to connect and close deals.
+
+5. Powerful tools are available to manage buyer lists efficiently, indicating that the software provides features to organize and filter potential buyers based on location and other criteria.
+
+Overall, InvestorLift appears to be a comprehensive software platform that combines a marketplace for real estate deals with a range of features to assist investors, wholesalers, and rehabbers with lead generation, deal management, and efficient property transactions.
+
+[function result] Appending tool output array...
+
+
+Run Status: queued
+
+Current run status: in_progress
+Current run status: in_progress
+Current run status: in_progress
+Current run status: in_progress
+Current run status: in_progress
+Current run status: in_progress
+Current run status: completed
+
+
+====== Assistant Response ======
+
+assistant: InvestorLift is a comprehensive software platform that caters to real estate investors, wholesalers, and rehabbers. It offers various features and tools to help users identify off-market deals, connect with buyers, and streamline property transactions. Some of the key features and offerings of InvestorLift include:
+
+1. Real Estate Marketplace: InvestorLift provides a marketplace where users can access wholesale deals. This enables investors to find and purchase properties at wholesale prices.
+
+2. Lead Generation Tools: The software facilitates lead generation by offering deal-tracking tools, outreach tools like built-in SMS, and listing features. These tools aim to help users flip more contracts and buy more deals.
+
+3. Buyer Communication and Collaboration: InvestorLift allows users to communicate with buyers, access a knowledge base, and sell deals. This feature makes it easier for sellers to connect with potential buyers and facilitate successful transactions.
+
+4. Efficient Buyer List Management: The platform offers powerful tools to manage buyer lists efficiently. Users can build and organize cash buyers lists, filter buyers by location, and receive and negotiate cash offers on deals.
+
+5. Streamlined Property Transactions: InvestorLift streamlines property transactions, helping users find and close deals faster with less effort. The software aims to simplify the process of buying and selling real estate.
+
+Overall, InvestorLift provides a comprehensive solution for real estate investors, wholesalers, and rehabbers by combining a real estate marketplace with a range of features and tools for lead generation and efficient property transactions.
